@@ -1,25 +1,38 @@
-import logo from './logo.svg';
+import { Component } from "react";
 import './App.css';
+import './Assets/css/style.css';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { createBrowserHistory } from 'history';
+import HomePage from "./components/Pages/Home";
+import ContactUs from "./components/Pages/ContactUs";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+const history = createBrowserHistory();
+
+
+class App extends Component {
+  state = {};
+  componentDidMount() {
+    
+  }
+
+  render() {
+    return (
+      <>
+          <>
+            <Router history={history}>
+              <Routes>
+                <Route path={"/"} element={<HomePage />} exact />
+                <Route path={"/contactus"} element={<ContactUs />} exact />
+              </Routes>
+            </Router>
+
+
+          </>
+      </>
+    );
+  }
 }
 
 export default App;
