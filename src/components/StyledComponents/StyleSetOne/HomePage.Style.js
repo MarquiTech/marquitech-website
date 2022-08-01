@@ -31,7 +31,7 @@ export const HomePageStyles = createGlobalStyle`
             font-size:1.7rem;
             font-weight: 700;
         }
-        .b-radius{
+.b-radius{
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
     
