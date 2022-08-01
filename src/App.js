@@ -3,20 +3,17 @@ import './App.css';
 import './Assets/css/style.css';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { createBrowserHistory } from 'history';
-import HomePage from "./components/Pages/Home";
+import HomePage from "./components/Pages/Home/Index";
 import ContactUs from "./components/Pages/ContactUs";
 
 
 
 const history = createBrowserHistory();
-
-
 class App extends Component {
   state = {};
   componentDidMount() {
     
   }
-
   render() {
     return (
       <>
