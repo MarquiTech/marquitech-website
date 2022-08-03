@@ -4,7 +4,7 @@ import './Assets/css/style.css';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { createBrowserHistory } from 'history';
 import HomePage from "./components/Pages/Home/Index";
-import ContactUs from "./components/Pages/ContactUs";
+import AboutUs from "./components/Pages/AboutUs/index";
 
 
 
@@ -21,7 +21,7 @@ class App extends Component {
             <Router history={history}>
               <Routes>
                 <Route path={"/"} element={<HomePage />} exact />
-                <Route path={"/contactus"} element={<ContactUs />} exact />
+                <Route path={"/aboutus"} element={<AboutUs />} exact />
               </Routes>
             </Router>
 
