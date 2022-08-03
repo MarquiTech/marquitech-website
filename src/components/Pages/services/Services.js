@@ -3,8 +3,11 @@ import Footer from '../Footer'
 import { FirstPart } from '../../StyledComponents/StyleSetTwo/FirstPart.styled';
 import serviceHero from '../../../Assets/services-page-assets/services-hero.svg'
 import { ServicesStack } from './ServicesStack';
+import { DevStack } from './DevStack';
+import { ContactForm } from '../contact/ContactForm';
 
 export const Services = () => {
+	const bg = "#FFFFFF 0% 0% no-repeat padding-box;"
     return (
         <>
             <Header />
@@ -26,6 +29,8 @@ export const Services = () => {
 				</div>
 			</FirstPart>
 			<ServicesStack />
+			<DevStack />
+			<ContactForm bg={ bg} />
             <Footer />
         </>
     )
