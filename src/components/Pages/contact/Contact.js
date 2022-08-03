@@ -5,6 +5,7 @@ import { ContactForm } from './ContactForm';
 import { FirstPart } from '../../StyledComponents/StyleSetTwo/FirstPart.styled';
 export const Contact = () => {
 	const bg = "transparent linear-gradient(180deg, #00aeef 0%, #21409a 100%) 0% 0% no-repeat padding-box;"
+	const bgColor = "#fefefe"
 	return (
 		<>
 			<Header />
@@ -26,7 +27,7 @@ export const Contact = () => {
 				</div>
 				</div>
 			</FirstPart>
-            <ContactForm />
+			<ContactForm bg={bg} bgColor={ bgColor} />
             <Footer />
 		</>
 	);

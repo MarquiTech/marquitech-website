@@ -7,17 +7,18 @@ export const Continer = styled.div`
 	margin-right: 0;
 	margin-left: 0;
 	height: 800px;
-	background: transparent linear-gradient(180deg, #00aeef 0%, #21409a 100%) 0% 0% no-repeat
-		padding-box;
+	background: ${({ bg }) => bg}
 	box-shadow: 0px 3px 6px #00000029;
 	p {
 		letter-spacing: 0.96px;
-		color: #fefefe;
+	color: ${({ bgColor }) => bgColor}
+
 	}
 	h3 {
 		font: normal normal bold 24px/32px Segoe UI;
 		letter-spacing: 1.44px;
-		color: #fefefe;
+	color: ${({ bgColor }) => bgColor}
+
 	}
 
 	.form-control {

@@ -8,6 +8,7 @@ import { ContactForm } from '../contact/ContactForm';
 
 export const Services = () => {
 	const bg = "#FFFFFF 0% 0% no-repeat padding-box;"
+	const bgColor = "black";
     return (
         <>
             <Header />
@@ -30,7 +31,7 @@ export const Services = () => {
 			</FirstPart>
 			<ServicesStack />
 			<DevStack />
-			<ContactForm bg={ bg} />
+			<ContactForm bg={ bg} bgColor={bgColor} />
             <Footer />
         </>
     )
