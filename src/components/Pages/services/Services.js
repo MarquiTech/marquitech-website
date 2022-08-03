@@ -2,6 +2,8 @@ import Header from '../Header';
 import Footer from '../Footer'
 import { FirstPart } from '../../StyledComponents/StyleSetTwo/FirstPart.styled';
 import serviceHero from '../../../Assets/services-page-assets/services-hero.svg'
+import { ServicesStack } from './ServicesStack';
+
 export const Services = () => {
     return (
         <>
@@ -22,7 +24,8 @@ export const Services = () => {
 					</div>
 				</div>
 				</div>
-            </FirstPart>
+			</FirstPart>
+			<ServicesStack />
             <Footer />
         </>
     )
