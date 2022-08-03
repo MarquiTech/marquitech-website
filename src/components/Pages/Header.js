@@ -4,17 +4,15 @@ import { Link } from "react-router-dom";
 import LogoIcon from "../../Assets/Images/logo-icon.svg" 
 import { FiMenu, FiX } from "react-icons/fi";
 import $ from "jquery";
-import { Contact } from "./contact/Contact";
 
 const menuItems = [
   { name: "Home", anchor: "" },
   // { name: "How we do", anchor: "" },
-  { name: "Services", anchor: "" },
+  { name: "Services", anchor: "/services" },
   { name: "About us", anchor: "" },
   { name: "Contact us", anchor: "/contact" },
 ];
 
-const letsChatBtn = <button className="btn btn-primary">Let's Chat</button>;
 export const Header = () => {
   let [menuIcon, setMenuIcon] = useState(false);
 
