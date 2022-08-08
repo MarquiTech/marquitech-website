@@ -6,11 +6,9 @@ import heroku from '../../../Assets/services-page-assets/heroku-icon.svg'
 import java from '../../../Assets/services-page-assets/java-icon.svg'
 import mongodb from '../../../Assets/services-page-assets/mongodb-icon.svg'
 import nodejs from '../../../Assets/services-page-assets/nodejs-icon.svg'
-// import postgresql from '../../../Assets/services-page-assets/postgresql-icon.svg'
 import reactjs from '../../../Assets/services-page-assets/reactjs-icon.svg'
 import redis from '../../../Assets/services-page-assets/redis-icon.svg'
 import typescriptlang from '../../../Assets/services-page-assets/typescriptlang-icon.svg'
-// import css from '../../../Assets/services-page-assets/css-icon.svg'
 
 export const DevStack = () => {
     return (
@@ -68,7 +66,6 @@ export const DevStack = () => {
                                     <div className='stacks'>
                                         <img alt="react js" width={33} height={36} src={reactjs} />
                                         <img alt="typescript" width={33} height={36} src={typescriptlang} />
-                                        {/* <img alt="css" width={33} height={36} src={css} /> */}
                                     </div>
 								</div>
 								
