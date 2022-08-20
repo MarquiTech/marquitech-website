@@ -45,12 +45,14 @@ body {
     font-family: Poppins, sans-serif;
     /* font-family: 'Quicksand', sans-serif!important; */
     
+
     font-size: 1rem;
     font-weight: 500;
     line-height: 1.5;
     color: #000000bd;
     text-align: left;
     background-color: #f8f9fe;
+    background-color: #fff;
 }
 
 [tabindex="-1"]:focus {
@@ -1812,14 +1814,35 @@ pre code {
     box-shadow: none;
     transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
+.form-control2 {
+    display: block;
+    width: 100%;
+    height: calc(2.75rem + 2px);
+    padding: 0.625rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #8898aa;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #cad1d7;
+    box-shadow: none;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
 
 @media screen and (prefers-reduced-motion: reduce) {
     .form-control {
         transition: none;
     }
+    .form-control2 {
+        transition: none;
+    }
 }
 
 .form-control::-ms-expand {
+    background-color: transparent;
+    border: 0;
+}
+.form-control2::-ms-expand {
     background-color: transparent;
     border: 0;
 }
@@ -1831,14 +1854,30 @@ pre code {
     outline: 0;
     box-shadow: none, none;
 }
+.form-control2:focus {
+    color: #8898aa;
+    background-color: #fff;
+    border-color: rgba(50, 151, 211, 0.25);
+    outline: 0;
+    box-shadow: none, none;
+}
 
 .form-control::placeholder {
+    color: #adb5bd;
+    opacity: 1;
+}
+.form-control2::placeholder {
     color: #adb5bd;
     opacity: 1;
 }
 
 .form-control:disabled,
 .form-control[readonly] {
+    background-color: #e9ecef;
+    opacity: 1;
+}
+.form-control2:disabled,
+.form-control2[readonly] {
     background-color: #e9ecef;
     opacity: 1;
 }
@@ -1917,6 +1956,9 @@ select.form-control[multiple] {
 }
 
 textarea.form-control {
+    height: auto;
+}
+textarea.form-control2 {
     height: auto;
 }
 
@@ -2858,6 +2900,8 @@ fieldset:disabled a.btn {
     border-color: #82C9A7;
 }
 
+
+
 .btn-outline-translucent-success:not(:disabled):not(.disabled):active:focus,
 .btn-outline-translucent-success:not(:disabled):not(.disabled).active:focus,
 .show>.btn-outline-translucent-success.dropdown-toggle:focus {
@@ -3161,6 +3205,7 @@ fieldset:disabled a.btn {
     background-color: #172b4d;
     border-color: #172b4d;
 }
+
 
 .btn-outline-default:not(:disabled):not(.disabled):active:focus,
 .btn-outline-default:not(:disabled):not(.disabled).active:focus,
@@ -4773,6 +4818,10 @@ input[type="button"].btn-block {
     background-clip: border-box;
     /*border: 1px solid #5A62B3;*/
     border-radius: 0.375rem;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 0.375rem;
+    box-shadow: 0px 3px 6px #00000029;
 }
 
 .card>hr {
