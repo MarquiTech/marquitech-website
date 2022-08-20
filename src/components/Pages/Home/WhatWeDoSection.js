@@ -1,3 +1,4 @@
+import React from 'react';
 import React from "react";
 import Face from "../../../Assets/Images/face.png";
 import CustomUI from "../../../Assets/Images/custom-user-interfase.svg";

@@ -6,12 +6,13 @@ import { FiMenu, FiX } from "react-icons/fi";
 import $ from "jquery";
 
 const menuItems = [
-  { name: "What we do", anchor: "" },
-  { name: "How we do", anchor: "" },
-  { name: "Services", anchor: "" },
-  { name: "About us", anchor: "aboutus" },
-  { name: "Contact us", anchor: "" },
+  { name: "Home", anchor: "" },
+  // { name: "How we do", anchor: "" },
+  { name: "Services", anchor: "/services" },
+  { name: "About us", anchor: "" },
+  { name: "Contact us", anchor: "/contact" },
 ];
+
 
 const letsChatBtn = <button className="btn btn-primary">Let's Chat</button>;
 export const Header = () => {
@@ -51,6 +52,7 @@ export const Header = () => {
               {menuItems.map((x) => {
                 return <Link to={x.anchor}>{x.name}</Link>;
               })}
+              {/* {letsChatBtn} */}
               {letsChatBtn}
             </div>
           </div>
@@ -76,6 +78,7 @@ export const Header = () => {
                 </>
               );
             })}
+            {/* <center>{letsChatBtn}</center> */}
             <center>{letsChatBtn}</center>
           </div>
         </div>
