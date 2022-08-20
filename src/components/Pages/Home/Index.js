@@ -1,10 +1,4 @@
 import React from 'react';
-// import { NavBar } from "../StyledComponents/StyleSetOne/NavBar.Style"
-import Header from "../Header"
-import {HomePageStyles} from "../../StyledComponents/StyleSetOne/HomePage.Style"
-import WhatWeDoSection from '../Home/WhatWeDoSection';
-
-
 import Header from "../Header"
 import { HomePageStyles } from "../../StyledComponents/StyleSetOne/HomePage.Style"
 import WhatWeDoSection from '../Home/WhatWeDoSection';
