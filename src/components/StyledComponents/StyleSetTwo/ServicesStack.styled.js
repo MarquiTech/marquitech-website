@@ -1,24 +1,31 @@
 import styled from 'styled-components';
 
-export const Continer = styled.div`
+export const ServicesStackDiv = styled.div`
 	width: 100%;
 	padding-right: 0;
 	padding-left: 0;
 	margin-right: 0;
 	margin-left: 0;
-	height: 800px;
-	background: ${({ bg }) => bg}
-	box-shadow: 0px 3px 6px #00000029;
+	height: 700px;
+	background: transparent linear-gradient(180deg, #00aeef 0%, #21409a 100%) 0% 0% no-repeat
+		padding-box;
 	p {
-		letter-spacing: 0.96px;
-	color: ${({ bgColor }) => bgColor}
-
+		text-align: left;
+		font: normal normal normal 14px/19px Segoe UI;
+		letter-spacing: 0.84px;
+		color: #021f2f;
+		width: 70%;
 	}
 	h3 {
+		text-align: left;
+		font: normal normal bold 16px/21px Segoe UI;
+		letter-spacing: 0.96px;
+		color: #021f2f;
+	}
+
+	h2 {
 		font: normal normal bold 24px/32px Segoe UI;
 		letter-spacing: 1.44px;
-	color: ${({ bgColor }) => bgColor}
-
 	}
 
 	.form-control {
@@ -44,7 +51,7 @@ export const Continer = styled.div`
 	}
 
 	.card {
-		border-radius: 15px;
+		border-radius: 10px;
 		padding: 3em;
 	}
 
@@ -55,10 +62,14 @@ export const Continer = styled.div`
 	}
 
 	@media (min-width: 320px) and (max-width: 480px) {
-		height: 850px;
+		height: 1100px;
 
 		.card {
 			padding: 2em;
+		}
+
+		p {
+			width: 85%;
 		}
 
 		.container {
@@ -71,6 +82,9 @@ export const Continer = styled.div`
 		}
 		.mt-sml-0 {
 			margin-top: 0 !important;
+		}
+		.mt-sml-4 {
+			margin-top: 2rem !important;
 		}
 		.m-top-2 {
 			margin-top: 3em !important;

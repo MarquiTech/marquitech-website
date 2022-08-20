@@ -6,6 +6,10 @@ import { createBrowserHistory } from 'history';
 import HomePage from "./components/Pages/Home/Index";
 // import ContactUs from "./components/Pages/ContactUs";
 import { Contact } from "./components/Pages/contact/Contact";
+import {Services} from "./components/Pages/services/Services"
+
+
+import AboutUs from "./components/Pages/AboutUs/index";
 
 
 const history = createBrowserHistory();
@@ -17,11 +21,14 @@ class App extends Component {
   render() {
     return (
       // <>
+      <>
           <>
             <Router history={history}>
               <Routes>
                 <Route path={"/"} element={<HomePage />} exact />
                 <Route path={"/contact"} element={<Contact />} exact />
+                <Route path={"/services"} element={<Services />} exact />
+                <Route path={"/aboutus"} element={<AboutUs />} exact />
               </Routes>
             </Router>
 

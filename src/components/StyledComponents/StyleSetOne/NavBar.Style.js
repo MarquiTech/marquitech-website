@@ -46,9 +46,7 @@ export const NavBarStyles = createGlobalStyle`
     float: right;
 }
 
-.m-top-2{
-    margin-top: 110px!important;
-}
+
 #hamburger{
 display: none;
 }
