@@ -1,10 +1,8 @@
-import React from 'react';
 import React from "react";
 import Face from "../../../Assets/Images/face.png";
 import CustomUI from "../../../Assets/Images/custom-user-interfase.svg";
 import SoftwareDev from "../../../Assets/Images/software-dev.svg";
 import Cloud from "../../../Assets/Images/cloud.svg";
-
 
 export const WhatWeDoSection = () => {
   return (
@@ -52,7 +50,10 @@ export const WhatWeDoSection = () => {
           </div>
         </div>
       </div>
-      <div className="mt-9 responsive-padding" style={{ backgroundColor: "#0d86d1"}}>
+      <div
+        className="mt-9 responsive-padding"
+        style={{ backgroundColor: "#0d86d1" }}
+      >
         <div className="">
           <h2 className="" style={{ color: "white" }}>
             What people say
@@ -62,7 +63,7 @@ export const WhatWeDoSection = () => {
               <div className="card p-3 w-auto mb-2">
                 <div className="row d-flex">
                   <div className="col-4 ">
-                    <img src={Face} style={{width:"100px"}} />
+                    <img src={Face} style={{ width: "100px" }} />
                   </div>
                   <div className="col-8">
                     <h3 className="card-title">John Smith</h3>
@@ -78,7 +79,7 @@ export const WhatWeDoSection = () => {
               <div className="card p-3 mb-2">
                 <div className="row">
                   <div className="col-4">
-                    <img src={Face} style={{width:"100px"}} />
+                    <img src={Face} style={{ width: "100px" }} />
                   </div>
                   <div className="col-8">
                     <h3 className="card-title">John Smith</h3>
@@ -94,7 +95,7 @@ export const WhatWeDoSection = () => {
               <div className="card p-3 mb-2">
                 <div className="row">
                   <div className="col-4">
-                    <img src={Face} style={{width:"100px"}} />
+                    <img src={Face} style={{ width: "100px" }} />
                   </div>
                   <div className="col-8">
                     <h3 className="card-title">John Smith</h3>
@@ -106,11 +107,9 @@ export const WhatWeDoSection = () => {
                 </div>
               </div>
             </div>
-       
           </div>
         </div>
       </div>
-      
     </>
   );
 };
