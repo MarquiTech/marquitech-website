@@ -35,7 +35,7 @@ export const Header = () => {
             <div className="col-sm-12 col-lg-3">
               <Link to="/">
                 <h2 style={{ float: "left", fontSize: "23px" }}>
-                  <img src={LogoIcon} /> Marquitech
+                  <img src={LogoIcon} alt="logo" /> Marquitech
                 </h2>
                 <h2 id="hamburger" style={{ float: "right" }}>
                   {!menuIcon ? (

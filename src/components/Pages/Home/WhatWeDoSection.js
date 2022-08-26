@@ -21,12 +21,18 @@ export const WhatWeDoSection = () => {
               </p>
             </div>
             <div className="col-sm-12 col-lg-6 d-lg-block d-none">
-              <img src={CustomUI} className="mt-5" width={1000} height={400} />
+              <img
+                src={CustomUI}
+                className="mt-5"
+                width={1000}
+                height={400}
+                alt="custom"
+              />
             </div>
           </div>
           <div class="row mt-lg-8">
             <div className="col-lg-6 col-sm-12 d-lg-block d-none">
-              <img src={SoftwareDev} />
+              <img src={SoftwareDev} alt="software" />
             </div>
             <div className="col-lg-6 col-sm-12 mt-3 ">
               <h3>Software Development Services</h3>
@@ -45,7 +51,7 @@ export const WhatWeDoSection = () => {
               </p>
             </div>
             <div className="col-lg-6 col-sm-12 d-lg-block d-none text-right">
-              <img src={Cloud} />
+              <img src={Cloud} alt="cloud" />
             </div>
           </div>
         </div>
@@ -63,7 +69,7 @@ export const WhatWeDoSection = () => {
               <div className="card p-3 w-auto mb-2">
                 <div className="row d-flex">
                   <div className="col-4 ">
-                    <img src={Face} style={{ width: "100px" }} />
+                    <img src={Face} style={{ width: "100px" }} alt="face" />
                   </div>
                   <div className="col-8">
                     <h3 className="card-title">John Smith</h3>
@@ -79,7 +85,7 @@ export const WhatWeDoSection = () => {
               <div className="card p-3 mb-2">
                 <div className="row">
                   <div className="col-4">
-                    <img src={Face} style={{ width: "100px" }} />
+                    <img src={Face} style={{ width: "100px" }} alt="Face" />
                   </div>
                   <div className="col-8">
                     <h3 className="card-title">John Smith</h3>
@@ -95,7 +101,7 @@ export const WhatWeDoSection = () => {
               <div className="card p-3 mb-2">
                 <div className="row">
                   <div className="col-4">
-                    <img src={Face} style={{ width: "100px" }} />
+                    <img src={Face} style={{ width: "100px" }} alt="Face" />
                   </div>
                   <div className="col-8">
                     <h3 className="card-title">John Smith</h3>
