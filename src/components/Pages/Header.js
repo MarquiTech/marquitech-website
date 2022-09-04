@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { NavBarStyles } from "../StyledComponents/StyleSetOne/NavBar.Style";
 import { Link } from "react-router-dom";
-import LogoIcon from "../../Assets/Images/logo-icon.svg";
+import LogoIcon from "../../Assets/logo-icon.svg";
 import { FiMenu, FiX } from "react-icons/fi";
 import $ from "jquery";
 
 const menuItems = [
-  { name: "Home", anchor: "" },
+  { name: "Home", anchor: "/" },
   // { name: "How we do", anchor: "" },
   { name: "Services", anchor: "/services" },
   { name: "About us", anchor: "/about" },
@@ -54,8 +54,6 @@ export const Header = () => {
               {menuItems.map((x) => {
                 return <Link to={x.anchor}>{x.name}</Link>;
               })}
-              {/* {letsChatBtn} */}
-              {letsChatBtn}
             </div>
           </div>
         </div>
