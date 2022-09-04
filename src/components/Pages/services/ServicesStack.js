@@ -22,7 +22,7 @@ export const ServicesStack = () => {
                 </div>
                 <p>
                   We deliver unique user interface designs for your business
-                  needs, to provide the best user experience for your customers.
+                  needs.
                 </p>
               </div>
             </div>
@@ -33,8 +33,8 @@ export const ServicesStack = () => {
                   <img alt="grid" src={imgGridGradient} />
                 </div>
                 <p>
-                  We deliver unique user interface designs for your business
-                  needs, to provide the best user experience for your customers.
+                  Every business has a story, we help tell your story on your
+                  custom website.
                 </p>
               </div>
             </div>
@@ -45,8 +45,8 @@ export const ServicesStack = () => {
                   <img alt="grid" src={imgGridGradient} />
                 </div>
                 <p>
-                  We deliver unique user interface designs for your business
-                  needs, to provide the best user experience for your customers.
+                  Get your services in the palms of your users with a custom
+                  mobile app.
                 </p>
               </div>
             </div>
@@ -57,8 +57,8 @@ export const ServicesStack = () => {
                   <img alt="grid" src={imgGridGradient} />
                 </div>
                 <p>
-                  We deliver unique user interface designs for your business
-                  needs, to provide the best user experience for your customers.
+                  Connect your service to the world with the help of our
+                  professional expertise.
                 </p>
               </div>
             </div>

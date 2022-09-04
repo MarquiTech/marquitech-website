@@ -5,6 +5,7 @@ import HERO_IMAGE from "../../../Assets/Images/adbout us-hero.svg";
 import Grid_Grad from "../../../Assets/Images/grid-gradient.svg";
 import WHITEGRID from "../../../Assets/Images/grid-white.svg";
 import contact from "../../../Assets/Images/contact-us.svg";
+import Footer from "../Footer";
 
 export const HomePage = () => {
   return (
@@ -20,8 +21,8 @@ export const HomePage = () => {
                 We innovate together!
               </h1>
               <p className="mt-5">
-                IT Team with diverse software development experience working
-                together to deliver solutions for your business
+                We believe that your ideas are valuable, we work with you to
+                bring your visions to life.
               </p>
             </div>
 
@@ -54,11 +55,12 @@ export const HomePage = () => {
               </div>
               <div className="col-sm-12 col-lg-7 mt-4">
                 <p className="text-white">
-                  In publishing and graphic design, Lorem ipsum is a placeholder
-                  text commonly used to demonstrate the visual form of a
-                  document or a typeface without relying on meaningful content.
-                  Lorem ipsum may be used as a placeholder before final copy is
-                  available.
+                  Since the recent advancement of technology in the world, we at
+                  MarquiTech saw the opportunity to assist in the transition of
+                  a new generation in to the online space. Today more and more
+                  businesses see the value and potential of operating online,
+                  here at MarquiTech, it is our goal to help businesses realize
+                  their highest potentials.
                 </p>
               </div>
             </div>
@@ -103,7 +105,13 @@ export const HomePage = () => {
                     <label>Message *</label>
                     <textarea className="form-control" rows="3" />
                   </div>
-                  <button className="btn btn-block btn-primary">
+                  <button
+                    style={{
+                      backgroundColor: "#0b87d1",
+                      color: "white",
+                    }}
+                    className="btn btn-block btn-primary"
+                  >
                     Send Message
                   </button>
                 </div>
@@ -112,6 +120,7 @@ export const HomePage = () => {
               <br />
               <br />
             </div>
+            <Footer />
           </div>
         </div>
       </div>

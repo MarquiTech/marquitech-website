@@ -1,11 +1,11 @@
 import React from "react";
-// import { NavBar } from "../StyledComponents/StyleSetOne/NavBar.Style"
 import Header from "../Header";
 import { HomePageStyles } from "../../StyledComponents/StyleSetOne/HomePage.Style";
 import WhatWeDoSection from "../Home/WhatWeDoSection";
 import HERO_IMAGE from "../../../Assets/Images/hero-image.svg";
 import Grid_Grad from "../../../Assets/Images/grid-gradient.svg";
 import contact from "../../../Assets/Images/contact-us.svg";
+import Footer from "../Footer";
 
 export const HomePage = () => {
   return (
@@ -35,8 +35,12 @@ export const HomePage = () => {
                 solutions for your businesses
               </p>
               <button
-                style={{ borderRadius: "2rem" }}
-                className="btn btn-primary mt-4"
+                style={{
+                  borderRadius: "2rem",
+                  backgroundColor: "#0b87d1",
+                  color: "white",
+                }}
+                className="btn mt-4"
               >
                 Get a free consultation
               </button>
@@ -150,7 +154,7 @@ export const HomePage = () => {
         <div className="d-flex pt-5">
           <img src={Grid_Grad} alt="white grid" />
           <div className="ml-3 text-white ls-2" style={{ height: 32 }}>
-            <h3 className="">Get in touch with us</h3>
+            <h3 style={{ fontSize: "20px" }}>Get in touch with us</h3>
           </div>
         </div>
         <div className="row">
@@ -184,7 +188,13 @@ export const HomePage = () => {
                   <label>Message *</label>
                   <textarea className="form-control" rows="3" />
                 </div>
-                <button className="btn btn-block btn-primary">
+                <button
+                  style={{
+                    backgroundColor: "#0b87d1",
+                    color: "white",
+                  }}
+                  className="btn btn-block btn-primary"
+                >
                   Send Message
                 </button>
               </div>
@@ -196,8 +206,7 @@ export const HomePage = () => {
             <br />
             <br />
           </div>
-
-          {/* </div> */}
+          <Footer />
         </div>
       </div>
     </>

@@ -17,8 +17,10 @@ export const Services = () => {
           <div className="container">
             <div className="row align-items-md-center align-items-lg-center align-items-xl-center">
               <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                <h1>Our Development Services</h1>
-                <p>
+                <h1 style={{ fontSize: "2.7rem", fontWeight: "700px" }}>
+                  Our Development Services
+                </h1>
+                <p className="mt-5">
                   IT team with diverse software development experience working
                   together to deliver solutions for your business.
                 </p>

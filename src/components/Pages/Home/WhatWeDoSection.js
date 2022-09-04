@@ -37,8 +37,8 @@ export const WhatWeDoSection = () => {
             <div className="col-lg-6 col-sm-12 mt-3 ">
               <h3>Software Development Services</h3>
               <p className="mt-4">
-                We deliver unique user interface designs for your business
-                needs, to provide the best user experience for your customers.
+                We bring your ideas to life based on your unique business
+                requirement.
               </p>
             </div>
           </div>
@@ -46,8 +46,8 @@ export const WhatWeDoSection = () => {
             <div className="col-lg-6 col-sm-12 mt-5">
               <h3>Software Cloud Deployment And Maintenance Services</h3>
               <p className="mt-4">
-                We deliver unique user interface designs for your business
-                needs, to provide the best user experience for your customers.
+                We help to give your application the advantage of the cloud with
+                our cloud experience.
               </p>
             </div>
             <div className="col-lg-6 col-sm-12 d-lg-block d-none text-right">

@@ -15,10 +15,12 @@ export const Contact = () => {
           <div className="container">
             <div className="row align-items-md-center align-items-lg-center align-items-xl-center">
               <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                <h1>Contact Us</h1>
-                <p>
-                  IT team with diverse software development experience working
-                  together to deliver solutions for your business.
+                <h1 className="hero-text" style={{ fontSize: "2.6rem" }}>
+                  Contact Us
+                </h1>
+                <p className="mt-5">
+                  We look forward to hearing your innovative ideas and providing
+                  solutions.
                 </p>
               </div>
               <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6 text-md-right text-lg-right text-xl-right text-sm-center">
